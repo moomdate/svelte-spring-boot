@@ -1,0 +1,4 @@
+book\Entity\Book.class
+book\Repositorys\BookRepository.class
+book\Application.class
+book\BookController\BookController.class
