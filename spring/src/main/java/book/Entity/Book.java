@@ -7,11 +7,11 @@ import javax.persistence.Table;
 
 import lombok.*;
 
-@Entity // บอกว่าเป็น class entity class ที่เก็บขอมูล
+@Entity 
 @Data
 public class Book {
-    @Id // Annotations @Id บอกว่าเป็น Primary key
-    @GeneratedValue // Annotations Generate id เอง ตอน insert
+    @Id 
+    @GeneratedValue 
     private Long id;
     private String name;
     /*void setBookName(String name){
